@@ -1,0 +1,98 @@
+html {
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: scroll;
+}
+
+.vaulttec {
+  height: 200px;
+  padding-bottom: 24px;
+  justify-content: center;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Tahoma;
+  border: 4px ridge #b48f00;
+  border-radius: 24px;
+  height: 100%;
+  width: 750px;
+  color: #b48f00;
+  background-color: #212121;
+  min-height: 100px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  padding: 24px;
+  overflow: scroll;
+}
+
+h1 {
+  text-align: center;
+  font-size: 36px;
+}
+
+.toplayout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px ridge #b48f00;
+  border-radius: 8px;
+  background-image: url('https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExaWlsOGMzZWtjcmt2dTB5cmI1OG9yemZ4ZmlkMHFicWg0cDVpNjRvZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o6gbeVN2ZPbG2COKA/giphy.gif');
+  padding: 48px;
+  margin: 24px;
+  height: 475px;
+  width: 250px;
+}
+
+#img-caption {
+  border: 3px solid black;
+  border-radius: 8px;
+  padding: 4px;
+  background-color: tan;
+}
+
+#img-div {
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  width: 225px;
+  justify-content: center;
+  align-items: center;
+}
+
+#image {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+#img-caption {
+  text-align: center;
+  font-size: 20px;
+}
+
+.desctext {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  margin-bottom: 12px;
+}
+
+#tribute-info, #tribute-info2 {
+  text-align: center;
+  color: white;
+}
+
+a {
+  text-align: center;
+  color: #b48f00;
+}
